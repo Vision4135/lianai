@@ -12,7 +12,7 @@
 
 
 body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif; overflow-x: hidden;}
-.w1000{max-width: 1000px!important; margin:0 auto;}
+.w1000{max-width: 1200px!important; margin:0 auto;}
 .header{height: 120px; line-height: 120px; position: relative; font-size: 16px;}
 .header .logo,.header .welcome-text,.header .nav{position: absolute; top: 0;}
 .header .logo{left: 65px;}
@@ -23,6 +23,32 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .header .welcome-text{right: 50px;}
 .header .header-down-nav{display: none;}
 
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+    .flex .item {
+        width: 250px;
+        margin-bottom: 8px;
+        height: 60px;
+        border: 1px solid #e2e3e8;
+        padding: 10px;
+        display: grid;
+        place-items: center;
+        /*overflow: hidden; 防止内容超出容器或者产生自动换行*/
+    }
+    .flex img {
+        width: 500px;
+        margin-bottom: 8px;
+        height: 700px;
+        border: 1px solid #e2e3e8;
+        padding: 10px;
+        /*overflow: hidden; 防止内容超出容器或者产生自动换行*/
+    }
 
 .banner {
     height: 300px;
@@ -46,7 +72,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .banner .text::before { position: absolute; right: -5px; content: '\FF1A';}
 
 
-.content{padding:100px 0 160px 0;}
+.content{padding:0px 0 60px 0;}
 .content .cont .title{margin-bottom: 60px;}
 .content .cont .title a{font-size: 16px; color: #000!important;}
 .content .cont .title .layui-breadcrumb span{position: relative; top: -1px; margin:0 16px;}
@@ -74,7 +100,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .content .review-version .form .layui-form-item{clear: none;}
 .content .review-version .form .layui-input-block{margin-left: 70px;}
 .content .review-version .form .layui-input-block .layui-btn{width: 100px; height: 40px; line-height: 40px; background: #ff7f21;}
-.content .review-version .list-cont .cont{padding:40px 0 30px 0; border-bottom: 1px solid #e5e5e5;}
+.content .review-version .list-cont .cont{padding:20px 0 20px 0; border-bottom: 1px solid #e5e5e5;}
 .content .review-version .list-cont .cont:last-child{border-bottom: 0;}
 .content .review-version .list-cont .cont .text{padding-left: 70px; line-height: 22px; color: #333; } 
 .content .review-version .list-cont .cont .text .tit{margin-bottom: 18px;}
@@ -143,7 +169,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 
 
 /*details*/
-.details-content .article-cont img{float: none; width: 100%;}
+/*.details-content .article-cont img{float: none; width: 100%;}*/
 .details-content .article-cont .title{text-align: center; margin-bottom: 0;}
 .details-content .article-cont .title h3{font-size: 24px; margin-bottom: 36px;}
 .details-content .article-cont .title p{padding:0;}
@@ -179,7 +205,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .about-content .item h3{font-size: 24px; color: #3f2863; line-height: 100px;}
 .about-content .item.info .cont{overflow: hidden;}
 .about-content .item.info img{float: left; height: 220px; margin-right:86px; }
-.about-content .item.info p{line-height: 50px; margin-top: 15px;}
+.about-content .item.info p{line-height: 40px; margin-top: 15px;}
 .about-content .item.info p{font-size: 16px;}
 .about-content .item.tool .cont-box{text-align: center;}
 .about-content .item.tool .cont-box img{ }
