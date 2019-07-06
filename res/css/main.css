@@ -42,9 +42,9 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
         /*overflow: hidden; 防止内容超出容器或者产生自动换行*/
     }
     .flex img {
-        width: 500px;
+        width: 450px;
         margin-bottom: 8px;
-        height: 700px;
+        height: 795px;
         border: 1px solid #e2e3e8;
         padding: 10px;
         /*overflow: hidden; 防止内容超出容器或者产生自动换行*/
@@ -176,7 +176,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .details-content .article-cont .title p.cont-info{text-indent: 0;}
 .details-content .article-cont .title p .data{margin-right: 26px;}
 .details-content .article-cont .title p .types{color: #ff7f21;}
-.details-content .article-cont p{line-height: 24px; padding:30px 0 30px 5px; color: #333; text-indent: 40px;}
+.details-content .article-cont p{line-height: 18px; padding:5px 5px 5px 5px; color: #333; text-indent: 40px;}
 .details-content .article-cont .btn-box{text-align: center; margin-top: 50px;}
 /*end-details*/
 
